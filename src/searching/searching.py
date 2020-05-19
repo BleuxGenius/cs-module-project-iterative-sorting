@@ -1,3 +1,7 @@
+# For a binary search, the array A must be sorted. The main idea of a binary search is to divide the given sorted array A into two subarrays at each step and look for the key element k in one of the two subarrays. This idea improves the time complexity from O(n) (Linear search) to O(logn).
+
+
+
 def linear_search(arr, target):
     # Your code here
     for i in arr:
